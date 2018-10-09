@@ -11,8 +11,8 @@ public class shikhi extends Applet {
 
     public void paint(Graphics g) {
         g.setColor(Color.blue);
-        g.drawString("mohammad!!", 50, 60 );
-        g.drawString("shikhi",60,90
+        g.drawString("mohammad!!", 50, 60
         );
+        g.drawString("shikhi", 55,70);
     }
 }
