@@ -1,9 +1,6 @@
 package h05;
 
 
-
-
-
 import java.awt.*;
 import java.applet.*;
 
@@ -18,11 +15,12 @@ public class opdracht22 extends Applet {
     int valerie;
     int jeroen;
     int hans;
-
+    int hoogteXas;
+int breedteyas;
 
     public void init() {  //initialisatie.
 
-        valerie = 40;
+        valerie = 130;
         jeroen = 100;
         hans = 80;
 
@@ -30,30 +28,28 @@ public class opdracht22 extends Applet {
         lijnkleur = Color.yellow;
         breedte = 20;
         hoogte = 50;
+        hoogteXas = 200;
+        breedteyas=200-valerie;
 
     }
 
     public void paint(Graphics g) {
-        setBackground(Color.black);
-        g.setColor(Color.green);
+
+
+        g.drawLine(20, hoogteXas, 350, hoogteXas);
+
+g.drawLine(breedte,20,breedte,200);
+
+
+g.fillRect(40 ,breedteyas ,20,valerie);
 
 
 
 
-        g.drawRect(00,00,200,200);
 
-        g.setColor(Color.blue);
-        g.drawRect(20,160,breedte,valerie );
+g.fillRect(70,120,20,80);
 
 
-        g.setColor(Color.yellow);
-
-        g.drawRect(60,120,breedte,hans);
-
-
-        g.setColor(Color.lightGray);
-
-        g.drawRect(100,100,breedte, jeroen);
-
-    }}
+g.fillRect(100,100,20,100);
+}}
 
