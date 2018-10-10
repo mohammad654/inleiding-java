@@ -1,9 +1,6 @@
 package h04;
 
 
-
-
-
 import java.awt.*;
 import java.applet.*;
 
@@ -15,7 +12,6 @@ public class opdracht4 extends Applet {
     public void paint(Graphics g) {
         setBackground(Color.black);
         g.setColor(Color.green);
-
 
 
         g.drawLine(50, 50, 50, 250);
@@ -31,5 +27,6 @@ public class opdracht4 extends Applet {
 
         g.setColor(Color.orange);
         g.fillRect(120, 180, 20, 70);
-    }}
+    }
+}
 

@@ -3,8 +3,6 @@
 package h06;
 
 
-
-
 import java.awt.*;
 import java.applet.*;
 
@@ -25,13 +23,13 @@ public class opdracht2 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawString("seconden in minuut: "+ minuut,20, 20);
-        g.drawString("seconden in uur: "+ uur,20, 40);
+        g.drawString("seconden in minuut: " + minuut, 20, 20);
+        g.drawString("seconden in uur: " + uur, 20, 40);
 
 
-        g.drawString("seconden in dag: "+dag,20, 60);
+        g.drawString("seconden in dag: " + dag, 20, 60);
 
-        g.drawString("seconden in jaar "+ jaar,20, 80);
+        g.drawString("seconden in jaar " + jaar, 20, 80);
 
     }
 }

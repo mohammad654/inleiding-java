@@ -16,7 +16,7 @@ public class opdracht22 extends Applet {
     int jeroen;
     int hans;
     int hoogteXas;
-int breedteyas;
+    int breedteyas;
 
     public void init() {  //initialisatie.
 
@@ -29,27 +29,16 @@ int breedteyas;
         breedte = 20;
         hoogte = 50;
         hoogteXas = 200;
-        breedteyas=200-valerie;
+        breedteyas = 200 - valerie;
 
     }
 
     public void paint(Graphics g) {
-
-
         g.drawLine(20, hoogteXas, 350, hoogteXas);
-
-g.drawLine(breedte,20,breedte,200);
-
-
-g.fillRect(40 ,breedteyas ,20,valerie);
-
-
-
-
-
-g.fillRect(70,120,20,80);
-
-
-g.fillRect(100,100,20,100);
-}}
+        g.drawLine(breedte, 20, breedte, 200);
+        g.fillRect(40, breedteyas, 20, valerie);
+        g.fillRect(70, 120, 20, 80);
+        g.fillRect(100, 100, 20, 100);
+    }
+}
 
